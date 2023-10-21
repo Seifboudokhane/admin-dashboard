@@ -64,6 +64,11 @@ nav img{
     justify-content: space-between;
     align-items: center;
 }
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 .search{
     display: flex;
     align-items: center;
@@ -112,6 +117,16 @@ button:hover{
 .header img{
     width: 2rem;
 }
+.profile .cat {
+    background-color: #8d8d8d;
+    width: 5.5rem;
+    border-radius: 50%;
+}
+.notification .cat {
+    background-color: #8d8d8d;
+    width: 4rem;
+    border-radius: 50%;
+}
 /* Header section */
 
 /* Main section */
@@ -157,6 +172,12 @@ h3{
     border-radius: 10px;
     box-shadow: 2px 2px 2px 2px rgb(218, 218, 218);
 }
+.project-card {
+    padding: 46px 40px;
+}
+.trending-cards{
+    padding: 25px 40px;
+}
 .main p{
     color: #8d8d8d;
 }
@@ -167,6 +188,15 @@ h5{
     font-size: 1.1rem;
     font-weight: 400;
 }
-.trending-cards div{
-    padding: 10px;
+
+.trending-cards .cat {
+    background-color: #8d8d8d;
+    width: 4rem;
+    border-radius: 50%;
+}
+.trending-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 7px 0px;
 }
